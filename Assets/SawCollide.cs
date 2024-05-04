@@ -16,7 +16,6 @@ public class SawCollide : MonoBehaviour
     {
         if (collision.gameObject.tag == "CutColl")
         {
-            Debug.Log("Collid-er, I hardly know her");
             Vector3 saw_position = transform.position;
             Vector3 plank_position = collision.transform.position;
             Vector3 relative_saw_position = saw_position - plank_position;
