@@ -5,6 +5,7 @@ using UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets;
 
 public class Bin : MonoBehaviour
 {
+    //script was developed myself but not implemented in the project
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Destroying");

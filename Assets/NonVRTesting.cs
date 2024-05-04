@@ -5,13 +5,14 @@ using UnityEngine;
 public class NonVRTesting : MonoBehaviour
 {
     public ObjectSpawner obj;
-    // Start is called before the first frame update
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    //script was developed by myself to act as a debug test when the simulation is run without a VR headset
+    
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.Alpha1))

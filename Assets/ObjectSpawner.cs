@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ObjectSpawner : MonoBehaviour
 {
+    //this script was developed myself
+
     public GameObject piece_prefab;
     public GameObject plank_prefab;
     public Transform piece_spawn;

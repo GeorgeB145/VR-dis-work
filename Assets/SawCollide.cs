@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class SawCollide : MonoBehaviour
 {
+    //this code was developed myself
+
     [SerializeField] public GameObject piece;
     [SerializeField] public GameObject plank;
 

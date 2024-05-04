@@ -5,17 +5,19 @@ using UnityEngine.InputSystem;
 
 public class AnimateHandOnInput : MonoBehaviour
 {
+    //script was developed using a youtube tutorial
+
     public InputActionProperty pinchAnimationAction;
     public InputActionProperty gripAnimationAction;
     public Animator handAnimator;
 
-    // Start is called before the first frame update
+
     void Start()
     {
 
     }
 
-    // Update is called once per frame
+
     void Update()
     {
         float triggerValue = pinchAnimationAction.action.ReadValue<float>();

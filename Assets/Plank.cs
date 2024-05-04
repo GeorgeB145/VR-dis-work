@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Plank : MonoBehaviour
 {
+    //this script was initialised by myself
+
     public Transform left_pos;
     public Transform right_pos;
     public float plank_length = 2;
